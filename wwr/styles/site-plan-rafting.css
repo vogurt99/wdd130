@@ -16,18 +16,18 @@ body {
 }
 
 :root {
-    --primary-color: #75DDDD;
+    --primary-color: #004346;
     --secondary-color: #508991;
-    --accent1-color: #004346;
+    --accent1-color: #75DDDD;
     --accent2-color: #09BC8A;
 
     --heading-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Montserrat', sans-serif;
 
     --nav-background-color: #75DDDD;
-    --nav-link-color: #09BC8A;
-    --nav-hover-link-color: #FFFFFF;
-    --nav-hover-background-color: #FFFFFF;
+    --nav-link-color: #004346;
+    --nav-hover-link-color: #004346;
+    --nav-hover-background-color: #09BC8A;
 }
 
 h1, h2, h3, h4, h5, h6 {
