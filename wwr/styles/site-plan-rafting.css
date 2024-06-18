@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* header {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+} */
+
+h4 {
+    font-family: Montserrat;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #75DDDD;
+    --secondary-color: #508991;
+    --accent1-color: #004346;
+    --accent2-color: #09BC8A;
+
+    --heading-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+
+    --nav-background-color: #75DDDD;
+    --nav-link-color: #09BC8A;
+    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
