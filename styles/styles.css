@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 nav {
+    margin: 1rem;
     background-color: steelblue;
     padding: 10px;
 }
