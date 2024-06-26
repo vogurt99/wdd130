@@ -13,6 +13,7 @@
     --nav-link-color: #004346;
     --nav-hover-link-color: #004346;
     --nav-hover-background-color: #09BC8A;
+
     width: 50%;
     margin-left: 50px;
 }
@@ -26,16 +27,16 @@ p {
     font-family: var(--paragraph-font);
 }
 
-.hero p {
-    font-family: var(--paragraph-font);
-    padding: 3%;
-}
-
 .hero {
     display: block;
     width: 100%;
     height: auto;
     position: relative;
+}
+
+.hero p {
+    font-family: var(--paragraph-font);
+    padding: 3%;
 }
 
 .hero h1 {
@@ -49,7 +50,6 @@ p {
 .hero article {
     position: absolute;
     background-color: rgba(117, 221, 221, .5);
-    padding: -1%;
     margin-top: -17%;
     margin-left: 1%;
     margin-right: 1%;
