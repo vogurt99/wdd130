@@ -68,6 +68,7 @@ p {
 
 .hero p {
     font-family: var(--paragraph-font);
+    color: var(--primary-color);
     padding: 3%;
 }
 
@@ -103,38 +104,12 @@ p {
     display: flex;
     text-align: center;
     align-items: center;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
 }
 
 .adventure img {
-    max-width:100%;
-    margin: 10px;
-}
-
-.adv1 {
-    display: flex;
-    flex-flow: column;
-}
-
-.adv2 {
-    display: flex;
-    flex-flow: column;
-}
-
-.adv3 {
-    display: flex;
-    flex-flow: column;
-}
-
-
-.adv4 {
-    display: flex;
-    flex-flow: column;
-}
-
-
-.adv5 {
-    display: flex;
-    flex-flow: column;
+    max-width:150%;
 }
 
 footer img {
