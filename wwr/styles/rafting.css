@@ -18,9 +18,41 @@
     margin-left: 50px;
 }
 
+header {
+	margin: 1rem auto;
+	display: grid;
+    grid-template-columns: 360px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+nav {
+    font-size: 30px;
+    text-align: center;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+    float: right;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
+    text-align: center;
 }
 
 p {
@@ -60,15 +92,62 @@ p {
     margin: 3%;
 }
 
+.history {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.adventure {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.adventure img {
+    max-width:100%;
+    margin: 10px;
+}
+
+.adv1 {
+    display: flex;
+    flex-flow: column;
+}
+
+.adv2 {
+    display: flex;
+    flex-flow: column;
+}
+
+.adv3 {
+    display: flex;
+    flex-flow: column;
+}
+
+
+.adv4 {
+    display: flex;
+    flex-flow: column;
+}
+
+
+.adv5 {
+    display: flex;
+    flex-flow: column;
+}
+
 footer img {
     width: 3%;
-    padding: 1%
+    padding: 1%;
+    float: right;
 }
 
 footer div img {
     border:0;
     width:88px;
     height:31px;
+    float: left;
 }
 
 a:link {
