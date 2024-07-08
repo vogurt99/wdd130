@@ -1,0 +1,65 @@
+* {
+    margin: 1em;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #EFFFFF;
+    color: #004346;
+}
+
+header {
+    width: 550px;
+    text-align: left;
+}
+
+form {
+    margin: auto;
+}
+
+fieldset {
+    display: grid;
+    width: 300px;
+    justify-content: space-between;
+}
+
+input[type=checkbox] {
+    grid-column: 2;
+}
+
+legend {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+button {
+    background-color: #004346;
+    color: #EFFFFF;
+}
+
+button:hover {
+    background-color: #EFFFFF;
+    color: #004346;
+}
+
+footer {
+    border-top: 1px solid #004346;
+    font-style: italic;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: auto;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+}
