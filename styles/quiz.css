@@ -33,8 +33,3 @@ button {
     background-color: #f2f4f3;
     color: #49111c;
 }
-
-button:hover {
-    background-color: #49111c;
-    color: #f2f4f3;
-}
