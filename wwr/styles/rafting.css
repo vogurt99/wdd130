@@ -129,8 +129,14 @@ p {
 
 .map {
     grid-column: 2;
+}
+
+.map iframe{
     position: relative;
-    margin-top: -19em;
+    margin-top: -18em;
+    width: 600px;
+    height: 300px;
+    border: 0px;
 }
 
 .employees {
