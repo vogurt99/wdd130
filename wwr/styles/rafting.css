@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
+    margin-top: 1em;
 }
 
 p {
@@ -61,7 +62,7 @@ p {
 
 .hero {
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
     position: relative;
 }
@@ -69,35 +70,35 @@ p {
 .hero p {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
-    padding: 3%;
+    padding: 1em;
 }
 
 .hero h1 {
     position: absolute;
     background-color: rgba(117, 221, 221, .5);
-    padding: 1%;
-    margin-top: -27%;
-    margin-left: 23%;
+    padding: .5em;
+    margin-top: -8em;
+    margin-left: 7em;
 }
 
 .hero article {
     position: absolute;
     background-color: rgba(117, 221, 221, .5);
-    margin-top: -17%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-top: -10em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .hero article img {
     float: right;
-    margin: 3%;
+    margin: 1em;
 }
 
 .history {
     display: flex;
     text-align: right;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 1em;
 }
 
 .adventure {
@@ -112,9 +113,73 @@ p {
     max-width:150%;
 }
 
+.contact {
+    text-align: left;
+    display: grid;
+}
+
+.contact h2 {
+    text-align: left;
+
+}
+
+.contactlist {
+    grid-column: 1;
+}
+
+.map {
+    grid-column: 2;
+    position: relative;
+    margin-top: -19em;
+}
+
+.employees {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+.employees img {
+    max-width: 100%;
+}
+
+form {
+    margin: auto;
+    display: grid;
+    width: 100%;
+    font-family: var(--paragraph-font);
+}
+
+fieldset {
+    margin-top: 1em;
+    width: auto;
+}
+
+.form {
+    margin-top: .5em;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    margin-top: .5em;
+    background-color: var(--primary-color);
+    color: var(--nav-background-color);
+}
+
+button:hover {
+    background-color: var(--nav-background-color);
+    color: var(--primary-color);
+}
+
 footer img {
     width: 3%;
-    padding: 1%;
+    padding: .5em;
     float: right;
 }
 
