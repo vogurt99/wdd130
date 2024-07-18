@@ -240,8 +240,23 @@ td, th {
     padding: 8px;
   }
 
+.home-banner {
+    display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
 .home-banner img {
     width: 100%;
+}
+
+.home-banner h1 {
+    position: absolute;
+    background-color: rgba(117, 221, 221, .5);
+    padding: .5em;
+    margin-top: -16em;
+    margin-left: 6em;
 }
 
 .newsletter-trips {
@@ -273,6 +288,24 @@ td, th {
     height: 100px;
     font-size: 2em;
     font-family: var(--paragraph-font);
+}
+
+.purpose-offer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.purpose-offer img {
+    max-width: 100%;
+}
+
+.purpose-offer figcaption {
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+
+.offer {
+    text-align: right;
 }
 
 footer img {
