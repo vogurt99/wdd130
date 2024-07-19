@@ -13,9 +13,11 @@
     --nav-link-color: #004346;
     --nav-hover-link-color: #004346;
     --nav-hover-background-color: #09BC8A;
+}
 
-    width: 50%;
-    margin-left: 50px;
+body {
+    width: 960px;
+    margin: 0 auto;
 }
 
 header {
@@ -81,6 +83,10 @@ p {
     margin-left: 7em;
 }
 
+.hero img {
+    width: 100%;
+}
+
 .hero article {
     position: absolute;
     background-color: rgba(117, 221, 221, .5);
@@ -92,6 +98,7 @@ p {
 .hero article img {
     float: right;
     margin: 1em;
+    width: auto;
 }
 
 .history {
@@ -190,6 +197,10 @@ button:hover {
     height: auto;
     position: relative;
     text-align: center;
+}
+
+.trips-banner img {
+    width: 100%;
 }
 
 .trips-banner h1 {
